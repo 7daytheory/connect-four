@@ -1,7 +1,9 @@
+import Navigation from "./Navigation/Navigation"
+
 function App() {
   return (
     <>
-      Start
+      <Navigation />
     </>
   )
 }
