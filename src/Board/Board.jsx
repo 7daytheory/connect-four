@@ -36,6 +36,7 @@ const Board = () => {
           <Circle 
             key={`${rowIndex}-${colIndex}`} 
             color={'bg-white'} 
+            onClick={() => { console.log("Clicked!")}} //Pass function via props to Circle (props.onClick)
             />
         ))
       )}
