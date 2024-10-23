@@ -12,18 +12,22 @@ Currently, two official plugins are available:
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
+```
 
 ```bash
 npx tailwindcss init -p
+```
 
-<p>Configure your tailwind config file to specify where tailwind should look for your html, jsx, components</p>
+Configure your tailwind config file to specify where tailwind should look for your html, jsx, components
 ```bash
 "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+"./src/**/*.{js,jsx,ts,tsx}",
+```
 
-<p>Add to a css file that is imported into main or app.jsx</p>
+Add to a css file that is imported into main or app.jsx
 ```bash
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
